@@ -313,7 +313,7 @@ line-height:2
 /* ===================================
 横幅840pxで切り替え
 =================================== */
-@media screen and (max-width: 840px){
+@media screen and (max-width: 900px){
 body{
 padding:10px 20px 50px
 }
@@ -330,7 +330,7 @@ margin-left:20px
 }
 /*  画像の縮小表示
 ------------------------------ */
-img{
+#img{
 height:auto;
 max-width:100%;
 }
