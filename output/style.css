@@ -41,10 +41,10 @@ text-decoration:underline;
 transition:.6s
 }
 #contents a:not(.bg-none):hover{
-background:#da184e;
+background:#fff;
 border-radius:5px;
-color:#fff;
-text-decoration:none
+color:#000;
+text-decoration:underline;
 }
 header a,footer a{
 color:#fff
@@ -62,10 +62,9 @@ max-width:725px; /* 全体の幅・大きさはここで変更 */
 }
 header{
 background:url(https://i.pinimg.com/originals/8c/f6/06/8cf60608f95bfae20a9e78884e1a33cb.gif) no-repeat 100% 0;
-border:1px solid #da184e;
-border-radius:3px;
+border:1px solid #fff;
 color:#fff;
-min-height:200px
+min-height:160px
 }
 #header-inner{
 padding:10px 20px;
@@ -94,8 +93,7 @@ padding:20px
 }
 footer{
 background:url(https://i.pinimg.com/originals/8c/f6/06/8cf60608f95bfae20a9e78884e1a33cb.gif);
-border:1px solid #da184e;
-border-radius:3px;
+border:1px solid #fff;
 color:#fff;
 padding:10px 20px;
 text-align:right;
@@ -125,8 +123,7 @@ margin:0 auto
 }
 nav span{
 background-image:url(https://i.pinimg.com/originals/8c/f6/06/8cf60608f95bfae20a9e78884e1a33cb.gif);
-border:1px solid #da184e;
-border-radius:3px;
+border:1px solid #fff;
 color:#fff;
 display:block;
 font-size:1.7rem;
@@ -140,7 +137,7 @@ nav li ul{
 margin:10px 0 20px
 }
 nav li ul li{
-border-bottom:1px dashed #41341f
+border-bottom:1px dashed #fff;
 }
 #contents #menu a{
 color:#fff;
@@ -151,7 +148,8 @@ text-decoration:none;
 transition:.6s
 }
 #contents #menu a:hover{
-background:rgba(241,33,64,.6);
+background:#fff;
+color: #000;
 letter-spacing:.3em
 }
 /*  メニューを開くボタン、前に戻るボタン非表示
@@ -187,16 +185,16 @@ line-height:1;
 margin:0 0 .5em
 }
 h2{
-background:#41341f;
+background:#00020a;
 border-radius:3px;
-border:1px solid #da184e;
+border:1px solid #fff;
 color:#fff;
 font-size:1.8rem;
 padding:.2em;
 margin:10px 0
 }
 h3{
-border-left:8px solid #da184e;
+border-left:8px solid #fff;
 margin:20px 0;
 padding-left:13px
 }
@@ -246,7 +244,7 @@ height:50px
 }
 hr{
 border:0;
-border-top:1px solid #ccc;
+border-top:1px solid #fff;
 display:block;
 margin:1em 0;
 padding:0;
@@ -315,7 +313,7 @@ line-height:2
 /* ===================================
 横幅840pxで切り替え
 =================================== */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 840px){
 body{
 padding:10px 20px 50px
 }
@@ -394,7 +392,7 @@ line-height:2
 /*  スライド
 ------------------------------ */
 #leftcolumn-wrap{
-background:#322612;
+background:#00020a;
 color:#fff;
 padding:70px 10px 20px; /* メニューボタン分空ける */
 line-height:2;
@@ -409,7 +407,7 @@ transition:all .3s;
 z-index:1000
 }
 #side-bg{
-background:rgba(51,51,51,.5)/* 周りの背景色 */
+background:#00020a/* 周りの背景色 */
 }
 /*  メニューを開くボタン/前に戻るボタン
 ------------------------------ */
