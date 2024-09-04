@@ -59,7 +59,6 @@ function generateFileExplorerPage(files) {
     <h1><a href="/">Explorer</a></h1>
   </header>
   <main>
-    <h1>Explorer</h1>
     <ol>
       ${files.map(file => {
         const fileName = path.basename(file, path.extname(file));
@@ -67,6 +66,37 @@ function generateFileExplorerPage(files) {
       }).join('')}
     </ol>
   </main>
+  </div></div>
+<div id="side-bg"></div>
+<div id="leftcolumn-wrap">
+<div id="leftcolumn">
+<h2>Menu</h2>
+<div id="menu">
+<nav>
+<ul>
+<li><span>SITE MAP</span>
+ <ul>
+  <li><a href="/">Home</a>
+  <li><a href="/about.html">PROFILE</a>
+ </ul>
+</li>
+<li><span>MAIN</span>
+ <ul>
+   <li><a href="/explorer.html">EXPLORER</a>
+   <li><a href="/world.html">WORLD BUILDING</a>
+ </ul>
+</li>
+<li><span>ONLINE</span>
+ <ul>
+   <li><a href="https://github.com/stardoom4/">GITHUB</a>
+   <li><a href="https://letterboxd.com/Celestialentity/">LETTERBOXD</a>
+ </ul>
+</li>
+</ul>
+</nav>
+</div>
+</div></div>
+</div>
   <footer>
     <div id="fl"><a href="http://foollovers.com" target="_blank">designed</a></div>
   </footer>
@@ -105,6 +135,37 @@ function generateTagPages(tagMap) {
       ${pages.map(page => `<li><a href="${page}.html">${page}</a></li>`).join('')}
     </ul>
   </main>
+  </div></div>
+<div id="side-bg"></div>
+<div id="leftcolumn-wrap">
+<div id="leftcolumn">
+<h2>Menu</h2>
+<div id="menu">
+<nav>
+<ul>
+<li><span>SITE MAP</span>
+ <ul>
+  <li><a href="/">Home</a>
+  <li><a href="/about.html">PROFILE</a>
+ </ul>
+</li>
+<li><span>MAIN</span>
+ <ul>
+   <li><a href="/explorer.html">EXPLORER</a>
+   <li><a href="/world.html">WORLD BUILDING</a>
+ </ul>
+</li>
+<li><span>ONLINE</span>
+ <ul>
+   <li><a href="https://github.com/stardoom4/">GITHUB</a>
+   <li><a href="https://letterboxd.com/Celestialentity/">LETTERBOXD</a>
+ </ul>
+</li>
+</ul>
+</nav>
+</div>
+</div></div>
+</div>
   <footer>
     <div id="fl"><a href="http://foollovers.com" target="_blank">designed</a></div>
   </footer>
