@@ -55,6 +55,8 @@ function generateFileExplorerPage(files) {
 </head>
 <body>
 <div id="wrapper">
+<div id="open"><span id="open-icon"></span><span class="open-text">menu</span></div>
+<div id="back"><a href="javascript:history.back();"><span class="back-text">back</span></a></div>
   <header>
     <h1><a href="/">Explorer</a></h1>
   </header>
@@ -130,6 +132,8 @@ function generateTagPages(tagMap) {
 </head>
 <body>
 <div id="wrapper">
+<div id="open"><span id="open-icon"></span><span class="open-text">menu</span></div>
+<div id="back"><a href="javascript:history.back();"><span class="back-text">back</span></a></div>
   <header>
     <h1>Tag: ${tag}</h1>
   </header>
