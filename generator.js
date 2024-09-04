@@ -58,6 +58,9 @@ function generateFileExplorerPage(files) {
   <header>
     <h1><a href="/">Explorer</a></h1>
   </header>
+  <div id="contents" class="cf">
+<div id="rightcolumn-wrap">  
+<div id="rightcolumn">
   <main>
     <ol>
       ${files.map(file => {
@@ -130,6 +133,9 @@ function generateTagPages(tagMap) {
   <header>
     <h1>Tag: ${tag}</h1>
   </header>
+  <div id="contents" class="cf">
+<div id="rightcolumn-wrap">  
+<div id="rightcolumn">
   <main>
     <ul>
       ${pages.map(page => `<li><a href="${page}.html">${page}</a></li>`).join('')}
