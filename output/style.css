@@ -71,8 +71,8 @@ padding:10px 20px;
 text-align:right
 }
 #rightcolumn-wrap{ 
-float:right;
-margin-left:-250px; /* (※1)と同じだけマイナス */
+float:left;
+margin-left:250px; /* (※1)と同じだけマイナス */
 width:100%
 }  
 #rightcolumn{
